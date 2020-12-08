@@ -18,6 +18,7 @@ struct ContentView: View {
         .onTapGesture {
             isLightOn.toggle()
         }
+        .statusBar(hidden: true)
     }
 }
 
