@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var isLightOn = true
     
+    
     var body: some View {
         ZStack{
             isLightOn ? Color.white : Color.black
